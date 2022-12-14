@@ -1,0 +1,219 @@
+html{
+  background-color:  #eafdfe; 
+}
+.home{
+  font-family: 'Melodrama', serif;
+  text-decoration: none; 
+  color: #FCA61D; 
+  font-size: 25px;
+position: absolute;
+top: 3vh;
+left: 2vw;
+letter-spacing: 3px;
+
+
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+
+
+.container:nth-child(2) {
+  background:  #eafdfe;
+}
+.container:nth-child(1) {
+  background:  #eafdfe;
+}
+.container:nth-child(4) {
+  background:  #eafdfe;
+}
+.container:nth-child(3) {
+  background:  #eafdfe;
+}
+.image-wrap{
+  padding-top:40px;
+}
+
+img {
+  height: 40%;
+  width: auto;
+  max-width: 75vw;
+  object-fit: contain;
+  top: 10vh;
+  
+}
+
+img:hover {
+  opacity: 0.1;
+}
+
+
+
+
+
+.text {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  -webkit-text-stroke: 2px white;
+  color: transparent;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+h1{
+  font-family: 'Melodrama', serif;
+  color:#338193;  
+  font-size: 150px;
+  position: absolute;
+  top: 18%;
+  left: 5%;
+  width: 90%;
+  height: 50%;
+  z-index: 99;
+  display: grid;
+  place-items: center;
+  
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+ 
+  font-weight: 400;
+  color:#FCA61D;  
+  font-size: 50px;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  width: 90%;
+  height: 50%;
+  z-index: 99;
+  display: grid;
+  place-items: center;
+ 
+}
+.image-wrap{
+  position: relative;
+}
+/*.Click{
+  font-family: 'Josefin Sans', sans-serif;
+  position: absolute;
+  top:25%;
+  left: 25%;
+  opacity:0.1;
+}
+*/
+
+
+
+
+body:not(.no-js) .image-wrap {
+  transition: 0.8s ease-out;
+  transition-delay: 0.2s;
+  position: relative;
+  width: auto;
+  height: 80vh;
+  overflow: hidden;
+  clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+  visibility: hidden;
+}
+
+
+body:not(.no-js) .animating .image-wrap {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  visibility: visible;
+  transform: skewX(0);
+}
+
+body:not(.no-js) .animating img {
+  transform: scale(1);
+  transition: 1.2s ease-out;
+}
+
+body:not(.no-js) .fadeup {
+  opacity: 0;
+  transition: 0.5s ease-out;
+  transform: translateY(40px);
+}
+
+body:not(.no-js) .fading-up {
+  opacity: 1;
+  transition: 0.8s ease-out;
+  transform: translateY(0px);
+  transition-delay: 0.4s;
+}
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+.arrow {
+  position: fixed;
+  bottom: 150px;
+  left: 50%;
+  margin-left: -10px;
+  width: 60px;
+  height:60px;
+ 
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}

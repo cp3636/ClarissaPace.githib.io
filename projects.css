@@ -1,0 +1,319 @@
+@media only screen 
+and (min-device-width: 320px) 
+{
+  html{
+    background-color:  #eafdfe;
+  }
+.title{
+    font-family: 'Melodrama', serif;
+  text-align: center;
+  font-size: 50px;
+  color:#338193;
+  padding-top:120px;
+  letter-spacing: 1px;
+}
+
+.subhead{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;  
+    color:  #338193; 
+    margin-top: 100px;
+    padding: 15px;
+}
+hr.newline {
+    border-top: 1px solid  #338193; 
+    width: 10%;
+  }
+  .home{
+    font-family: 'Melodrama', serif;
+    text-decoration: none; 
+    color: #FCA61D; 
+    font-size: 25px;
+   padding-top: 10px;
+   position: absolute;
+   top: 0.5vh;
+   left:2.5vw;
+   letter-spacing: 3px;
+  }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+    }
+    .mail {
+      margin-right: 15px; 
+      margin-top: 5px;
+      
+      }
+      .insta{
+      margin-right: 15px; 
+      margin-top: 5px;
+      }
+      .linkedin{
+      margin-right: 15px; 
+      margin-left: 5px;
+      
+      }
+      .header{
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      
+      }
+   #photoboothcontainer{
+flex-direction: column;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+   }
+      .photobooth{
+        margin-top: 100px;
+        height: 300px;
+        width: 240px;
+        opacity: 1;
+        transition: 0.4s;
+        box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+        
+       
+      }
+      .photobooth:hover{
+        transform: translateY(-12px);
+        box-shadow: 0px 10px 25px rgba(0,0,0,0.4);
+        }
+      .circle1{
+  margin-top: 6px;
+   height:85px;
+   width: 240px;
+  background-color: #338193; 
+  border-radius: 50%;
+ }
+   .photoboothlink{
+   color: #FCA61D; 
+  font-size: 15px;
+   padding-top: 5px;
+   padding-bottom: 10px;
+   padding-left: 15px;
+   padding-right: 15px;
+   border-radius: 6px;
+   position: absolute;
+   top: 70vh;
+   left:30vw;
+   text-decoration: none;
+   border: 1px solid rgb(0, 0, 0);
+  text-align:center;
+  
+
+   }
+   .egglink{
+    color: #FCA61D; 
+   font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 6px;
+    margin-left: 14px;
+    position: absolute;
+    top: 14vh;
+left: 6vw;
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+   text-align:center;
+   
+   
+    }
+
+
+
+
+
+
+
+
+
+
+             
+    
+
+
+
+
+@media screen and (min-width: 700px) {.title{
+  font-family: 'Melodrama', serif;
+text-align: center;
+font-size: 125px;
+color: #338193;
+padding-top:120px;
+letter-spacing: 1px;
+}
+
+.subhead{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;  
+  color:  #338193; 
+  margin-top: 100px;
+  padding: 15px;
+}
+hr.newline {
+  border-top: 1px solid  #338193; 
+  width: 10%;
+}
+.home{
+  font-family: 'Melodrama', serif;
+  text-decoration: none; 
+  color: #FCA61D; 
+  font-size: 25px;
+ padding-top: 10px;
+ position: absolute;
+ top: 0.5vh;
+ left:2.5vw;
+ letter-spacing: 3px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+  }
+  .mail {
+    margin-right: 15px; 
+    margin-top: 5px;
+    
+    }
+    .insta{
+    margin-right: 15px; 
+    margin-top: 5px;
+    }
+    .linkedin{
+    margin-right: 15px; 
+    margin-left: 5px;
+    
+    }
+    .header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+    }
+ #photoboothcontainer{
+flex-direction: column;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+ }
+    .photobooth{
+      margin-top: 100px;
+      height: 300px;
+      width: 240px;
+      opacity: 1;
+      transition: 0.4s;
+      box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+      ;
+    
+     
+      
+     
+     
+     
+    }
+    .photobooth:hover{
+      transform: translateY(-12px);
+      box-shadow: 0px 10px 25px rgba(0,0,0,0.4);
+      }
+    .circle1{
+margin-top: 6px;
+ height:85px;
+ width: 240px;
+background-color: #338193; 
+border-radius: 50%;
+}
+ .photoboothlink{
+ color: #FCA61D; 
+font-size: 15px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 15px;
+ padding-right: 15px;
+ border-radius: 6px;
+ margin-left: 14px;
+ position: absolute;
+ top: 130vh;
+ left:46vw;
+ text-decoration: none;
+ border: 1px solid rgb(0, 0, 0);
+text-align:center;
+
+
+ }
+ .Photoboothtitle{
+  padding-top:100px ;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: #FCA61D; 
+ }
+ #eggcontainer{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .Eggtitle{
+   position: absolute;
+   top:155vh;
+   font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #FCA61D; 
+  }
+  .egg{
+    position: absolute;
+    top:155vh;
+    margin-top: 100px;
+    height: 300px;
+    width: 240px;
+    opacity: 1;
+    transition: 0.4s;
+    border-radius:80%;
+    box-shadow: 0px 4px 2px rgba(179, 179, 179, 0.4);
+    
+   
+  }
+  .egg:hover{
+    transform: translateY(-12px);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.4);
+    }
+    .egglink{
+      color: #FCA61D; 
+     font-size: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      border-radius: 6px;
+      margin-left: 14px;
+      position: absolute;
+      top: 14vh;
+  left: 4vw;
+      text-decoration: none;
+      border: 1px solid rgb(0, 0, 0);
+     text-align:center;
+     
+     
+      }
+      .circle2{
+        position: absolute;
+        top: 199vh;
+         height:85px;
+         width: 240px;
+        background-color: #338193; 
+        border-radius: 50%;
+        }
+
+
+
+
+

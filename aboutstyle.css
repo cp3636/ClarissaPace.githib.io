@@ -1,0 +1,263 @@
+@media only screen 
+and (min-device-width: 320px) 
+{
+  html{
+    background-color:  #eafdfe;
+  }
+  .text {
+    font-size: 12px;
+    padding-left: 10px;
+    text-align: center ;
+    color: #FCA61D; 
+    padding: 15px;
+    width: 180px;
+    height: 300px;
+    
+    position: absolute;
+    top: 64vh;
+    left: 26vw;
+  
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+.title{
+  font-family: 'Melodrama', serif;
+text-align: center;
+font-size: 50px;
+color: #338193; 
+padding-top:120px;
+letter-spacing: 1px;
+}
+.home{
+  font-family: 'Melodrama', serif;
+  text-decoration: none; 
+  color: #FCA61D; 
+  font-size: 25px;
+ padding-top: 10px;
+ position: absolute;
+ top: 0.5vh;
+ left:2.5vw;
+ letter-spacing: 3px;
+}
+.Clarissa{
+  height: 220px;
+  width: 180px;
+  position: absolute;
+  justify-content: center;
+  top: 42vh;
+  left: 30vw;
+  flex-basis: 40%
+
+}
+.container {
+display: flex;
+align-items: center;
+justify-content: center
+}
+.mail {
+  margin-right: 15px; 
+  margin-top: 5px;
+  
+  }
+  .insta{
+  margin-right: 15px; 
+  margin-top: 5px;
+  }
+  .linkedin{
+  margin-right: 15px; 
+  margin-left: 5px;
+  
+  }
+  .header{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  
+  }
+
+  .button{
+    color:#338193; 
+   background-color:#eafdfe;
+  text-decoration: none;
+   border: none;
+   padding: 12px 20px;
+   margin: 4px 4px;
+   cursor: pointer;
+   margin: 0;
+   position:absolute;
+   top: 100vh;
+      left:22vw;
+      font-family: 'Melodrama', serif;
+  font-size: larger;
+  border: 1px solid#338193;
+  border-radius:8px;
+  
+  }
+  #readingList{
+    position:absolute;
+    top: 110vh;
+       left:30vw;
+  }
+  
+  #BookName{
+    color:  #FCA61D; 
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 50px;
+  }
+  #Rate{
+    color: #FCA61D; 
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 50px;
+  }
+  #Link{
+    color:  #FCA61D; 
+    font-family: 'Josefin Sans', sans-serif;
+  padding-right:100px
+  }
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 700px) {
+
+  .mail {
+    margin-right: 15px; 
+    margin-top: 5px;
+    
+    }
+    .insta{
+    margin-right: 15px; 
+    margin-top: 5px;
+    }
+    .linkedin{
+    margin-right: 15px; 
+    margin-left: 5px;
+    
+    }
+    .header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+    }
+
+.title{
+    font-family: 'Melodrama', serif;
+  text-align: center;
+  font-size: 50px;
+  color:#338193;
+  padding-top:120px;
+  letter-spacing: 1px;
+}
+.home{
+  font-family: 'Melodrama', serif;
+  text-decoration: none; 
+  color: #FCA61D; 
+  font-size: 25px;
+ padding-top: 10px;
+ position: absolute;
+ top: 0.5vh;
+ left:1vw;
+ letter-spacing: 3px;
+}
+.Clarissa{
+    height: 220px;
+    width: 180px;
+    position: absolute;
+    justify-content: center;
+    top: 42vh;
+    left: 40vw;
+    flex-basis: 40%
+
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.text {
+  font-size: 12px;
+  padding-left: 10px;
+  text-align: left ;
+  color:  #FCA61D; 
+  padding: 15px;
+  width: 200px;
+  height: 300px;
+  
+  position: absolute;
+  top: 39vh;
+  left: 52vw;
+
+  font-family: 'Josefin Sans', sans-serif;
+}
+.button{
+  color:#338193; 
+ background-color:#eafdfe;
+text-decoration: none;
+ border: none;
+ padding: 12px 20px;
+ margin: 4px 4px;
+ cursor: pointer;
+ margin: 0;
+ position:absolute;
+ top: 90vh;
+    left:44vw;
+    font-family: 'Melodrama', serif;
+font-size: larger;
+border: 1px solid#338193;
+border-radius:8px;
+
+
+}
+#readingList{
+  position:absolute;
+  top: 100vh;
+     left:46vw;
+}
+
+#BookName{
+  color:  #FCA61D; 
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 50px;
+  font-size: 20px;
+}
+#Rate{
+  color: #FCA61D; 
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 50px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+#Link{
+  color:  #FCA61D; 
+  font-family: 'Josefin Sans', sans-serif;
+padding-right:100px;
+padding-top: 20px;
+font-size: 20px;
+}
+
+
+
+
+
+
+}
